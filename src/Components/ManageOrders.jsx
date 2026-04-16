@@ -8,7 +8,6 @@ import {
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
 import SearchIcon from '@mui/icons-material/Search';
-import BlockIcon from '@mui/icons-material/Block';
 
 export default function ManageOrders({ orders = [], onUpdateStatus, onDeleteOrder, onEditOrder }) {
     const [searchTerm, setSearchTerm] = useState("");
